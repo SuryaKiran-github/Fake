@@ -1,0 +1,8 @@
+Flask
+Flask-Cors
+requests
+joblib
+gunicorn
+scikit-learn
+python-dotenv
+openai==0.28

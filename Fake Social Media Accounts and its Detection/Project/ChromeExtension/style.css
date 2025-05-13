@@ -1,0 +1,204 @@
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  width: 380px;
+  padding: 15px;
+  margin: 0;
+  background-color: #f8f9fa;
+  color: #333;
+}
+h1 {
+  font-size: 18px;
+  color: #333;
+  margin-top: 0;
+  margin-bottom: 15px;
+}
+button {
+  background-color: #0095f6;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 10px 16px;
+  margin-top: 12px;
+  margin-bottom: 15px;
+  cursor: pointer;
+  font-weight: bold;
+  width: 100%;
+  transition: background-color 0.2s;
+}
+button:hover {
+  background-color: #0077c2;
+}
+button:disabled {
+  background-color: #cccccc;
+  cursor: not-allowed;
+}
+#status {
+  margin-top: 15px;
+  padding: 10px;
+  border-radius: 4px;
+  background-color: #fff;
+  display: none;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+}
+#results {
+  margin-top: 15px;
+  max-height: 500px;
+  overflow-y: auto;
+}
+.platform-info {
+  margin-bottom: 15px;
+  font-size: 14px;
+  padding: 12px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+}
+.username {
+  font-weight: bold;
+  color: #0095f6;
+}
+.info-label {
+  color: #555;
+  margin-right: 5px;
+  font-weight: 500;
+}
+
+
+/* final */
+
+
+.final_output {
+  font-family: 'Arial', sans-serif;
+  max-width:80%;
+  background-color: #14152a;
+  border-radius: 12px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  font-size: small;
+  text-align: left;
+
+}
+
+.final_output h3 {
+  color: #b6b6b6;
+  font-weight: 600;
+  padding-bottom: 1rem;
+}
+
+.final_output ol {
+  list-style-type: none;
+  padding: 0;
+}
+
+.final_output ol li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 15px;
+  margin-bottom: 8px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+  transition: background-color 0.3s ease;
+}
+
+.final_output ol li:hover {
+  background-color: #f0f0f0;
+}
+
+/* Span styles for percentages */
+.final_output span {
+  font-weight: bold;
+  color: #555;
+  background-color: #011f38;
+  padding: 5px 10px;
+  border-radius: 15px;
+  min-width: 80px;
+  text-align: center;
+  display: inline-block;
+}
+
+.final_output .propaganda { color: #ff4557; }
+.final_output .Extremist { color: #fd7e14; }
+.final_output .Spam { color: #a6aeb6; }
+.final_output .hate { color: #d63384; }
+.final_output .Impersonate { color: #52bcfd; }
+.final_output .Incomplete { color: #15b237; }
+
+/* Strong label styles */
+.final_output strong {
+  display: block;
+  margin: 15px 0 10px;
+  color: #495057;
+  font-size: 16px;
+  border-left: 4px solid #4a4a4a;
+  padding-left: 10px;
+}
+
+.final_output .risk {
+  font-size: 1.2em;
+  color: #fc0e0e;
+  /* background-color: #0c1621; */
+  padding: 8px 15px;
+  border-radius: 20px;
+  display: inline-block;
+  margin-top: 10px;
+}
+
+
+
+.final_output {
+  width: 100%;
+  max-width: 700px;
+  margin: 20px auto;
+  border-collapse: collapse;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.final_output table {
+  width: auto;
+  border: 1px solid #e0e0e0;
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.final_output table tr {
+  border-bottom: 1px solid #f0f0f0;
+}
+
+.final_output table tr:last-child {
+  border-bottom: none;
+}
+
+.final_output table td {
+  padding: 12px 15px;
+  font-size: 14px;
+}
+
+.final_output table tr td:first-child {
+  font-weight: 600;
+  width: 50%;
+}
+
+.final_output table tr td:last-child {
+  text-align: left;
+  font-family: monospace;
+}
+
+.final_output .risk {
+  font-weight: bold;
+  font-size: 16px;
+}
+
+/* Responsive adjustments */
+@media (max-width: 600px) {
+  .final_output {
+      margin: 10px;
+  }
+
+  .final_output table td {
+      padding: 8px 10px;
+      font-size: 12px;
+  }
+}
+
+/* mode output end */
